@@ -25,6 +25,11 @@ app = Flask(__name__,
 
 @app.route('/')
 def sepectation():
+    current_directory = os.getcwd()
+    print("Current working directory:", current_directory)
+    print("Current working directory:", current_directory)
+    print("Current working directory:", current_directory)
+    print("Current working directory:", current_directory)
     return render_template('newhome.html')
 
 @app.route('/contactcontent')
